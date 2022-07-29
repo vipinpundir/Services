@@ -8,7 +8,6 @@
 @media (max-width: 585px) {
     .safe_service .safe_service_text {
         width: auto !important;
-        font-size: 8px;
     }
 }
 
