@@ -1,0 +1,23 @@
+.stick_img img{
+    height: 140px;
+    object-fit: cover;
+    object-position:center;
+    padding: 0px 20px;
+}
+
+.container .SSlider{
+ height: 100%;
+width: 95%;
+}
+.stick_img{
+    height: 100%;
+}
+.slick-prev:before, .slick-next:before {
+    display: none;
+}
+.header_slider {
+    height: 180px;
+    margin: 20px  0px;
+    margin-left: 6px;
+    margin-bottom: -96px;
+}

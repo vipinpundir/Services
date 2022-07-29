@@ -1,0 +1,90 @@
+.header{
+    display: flex;
+    text-align: center;
+}
+
+.header_p1{
+    width: 45%;
+    height: 500px;
+    background-image: url(../images/Ac\ repair.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.header_p1_text{
+    color: #fff;
+    width: 80%;
+    margin: auto;
+}
+.header_p1_text h2{
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+.header_p1_text a{
+    color: #fff;
+    text-decoration: none;
+}
+.header_p1_text p{
+    font-size: 11px;
+}
+
+.header_p1_text input{
+    width: 72%;
+    padding: 7px 0px 6px 34px;
+    border: none;
+    border-radius: 5px;
+    background-image: url(../images/search-icon.png);
+    background-repeat: no-repeat;
+    background-position: left 2px ;
+    outline: none;
+    border: 1px solid rgb(255, 206, 206);
+}
+
+
+
+.header_p2{
+    width: 55%;
+    padding-top: 20px;
+}
+.header_p2 h2{
+    margin-bottom: 20px;
+}
+.header_p2_itmes img{
+    height: 40px;
+    width: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+.header_p2_itmes_p1,
+.header_p2_itmes_p2,
+.header_p2_itmes_p3{
+   display: flex;
+   justify-content: space-around;
+   text-align: center;
+
+}
+.header_p2_itme1,
+.header_p2_itme2,
+.header_p2_itme3,
+.header_p2_itme4,
+.header_p2_itme5,
+.header_p2_itme6,
+.header_p2_itme7,
+.header_p2_itme8,
+.header_p2_itme9,
+.header_p2_itme10,
+.header_p2_itme11,
+.header_p2_itme12{
+    width: 30%;
+    margin: 10px 0px;
+}
+
+.header_slider{
+    height: 150px;
+    margin: 10px 10px;
+    margin-left: 24px;
+}

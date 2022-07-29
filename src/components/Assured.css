@@ -1,0 +1,15 @@
+.assured{
+    background-color:#F6F6F6;
+    padding: 20px;
+}
+.assured h2{
+    text-align: center;
+    letter-spacing: 5px;
+}
+
+.assured_items{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    margin: auto;
+}

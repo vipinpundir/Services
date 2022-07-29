@@ -1,38 +1,179 @@
-.App {
-  text-align: center;
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+@media (max-width: 585px) {
+    .safe_service .safe_service_text {
+        width: auto !important;
+    }
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+@media (max-width: 775px) and (min-width: 620px)  {
+    .stick_img img {
+        width: 70% !important;
+    }
+}
+@media (max-width: 1130px) and (min-width: 775px)  {
+    .stick_img img {
+        width: 110% !important;
+        height: auto !important;
+    }
+    .servicetype2_itme {
+        width: 23%;
+    }
+    .servicetype2_itmes img {
+        width: 100% !important;
+    }
+    .servicetype2_itmes {
+        margin: 50px 0px !important;
+        flex-wrap: wrap;
+        margin-bottom: 0px !important;
+    }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
 
-.App-link {
-  color: #61dafb;
-}
+@media (max-width: 775px) {
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+    .header {
+        flex-direction: column;
+        ;
+    }
+
+    .header_p1 {
+        background-image: none !important;
+        box-shadow: 0px 12px 10px 0px rgba(0, 0, 0, 0.121);
+        height: fit-content !important;
+
+    }
+
+    .header_p1,
+    .header_p2 {
+        width: 100% !important;
+    }
+
+    .header_p1_text input {
+        width: 100% !important;
+        margin-top: 40px;
+    }
+
+    .header_p1_text h2 {
+        display: none;
+    }
+
+    .header_p2_itme1,
+    .header_p2_itme2,
+    .header_p2_itme3,
+    .header_p2_itme4,
+    .header_p2_itme5,
+    .header_p2_itme6,
+    .header_p2_itme7,
+    .header_p2_itme8,
+    .header_p2_itme9,
+    .header_p2_itme10,
+    .header_p2_itme11,
+    .header_p2_itme12 {
+        /* width: 10% !important; */
+        margin: 10px 0px;
+        /* border: 2px solid black; */
+    }
+
+    .header_p2_itmes img {
+        height: 40px;
+        width: 60px !important;
+        object-fit: contain !important;
+        object-position: center;
+    }
+
+
+    .stick_img img {
+        height: auto !important;
+        object-fit: contain !important;
+        width: 90%;
+        object-position: center;
+        padding: 0px 0px !important;
+    }
+
+    .container .SSlider {
+        height: 100%;
+        width: 95% !important;
+    }
+
+    .service {
+        margin: 50px 0px !important;
+        margin-bottom: 80px;
+
+    }
+
+    .service_items {
+        margin-top: 0px;
+        flex-wrap: wrap !important;
+
+    }
+
+    .service_item1,
+    .service_item2,
+    .service_item3,
+    .service_item4,
+    .service_item5 {
+        width: 40% !important;
+        margin: 40px 0px;
+    }
+
+    .safe_service {
+        display: flex;
+        justify-content: space-between;
+        width: 100% !important;
+        height: 100px !important;
+        margin: 50px auto;
+        background-color: #ECECEE;
+        border-radius: 5px;
+        box-shadow: 0px 5px 5px 2px rgba(57, 57, 57, 0.304);
+    } 
+
+    .safe_service_text {
+        color: #025B5D;
+        display: flex;
+        flex-wrap: wrap;
+        width: 50% !important;
+        padding: 0px 20px;
+        font-size: 14px;
+    }
+
+
+    .assured_items {
+        flex-direction: column;
+        width: 100% !important;
+    }
+
+    .service50_text {
+        text-align: center;
+        width: fit-content !important;
+        font-size: 11px;
+    }
+
+    .service50 img {
+        height: 100px !important;
+        width: auto !important;
+    }
+
+
+    .servicetype2_itmes {
+        margin: 50px 0px !important;
+        flex-wrap: wrap;
+        margin-bottom: 0px !important;
+    }
+
+    .servicetype2_itme {
+        width: 48%;
+        margin-bottom: 30px;
+    }
+
+    .servicetype2_itmes img {
+        width: 100% !important;
+    }
+
+
 }

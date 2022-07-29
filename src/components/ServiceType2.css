@@ -1,0 +1,17 @@
+.servicetype2{
+    display: flex;
+    margin: 50px;
+    flex-direction: column;
+    text-align: center;
+}
+.servicetype2_itmes{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px;
+}
+.servicetype2_itmes img{
+   background-color: #531C1C;
+   height: 120px;
+   width: 220px;
+   border-radius: 10px;
+}
